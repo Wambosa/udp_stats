@@ -4,7 +4,7 @@ looks like we need a way to chart various metrics. Send to statsD or file output
 _currently **only supports simple count** since this is all we are using at the moment._
 
 ## install
-```npm install git@github.com:Wambosa/udp_stats.git --save```
+```npm install https://github.com/wambosa/udp_stats --save```
 
 ## statsD usage
 ```javascript
