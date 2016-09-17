@@ -7,7 +7,7 @@ _currently **only supports simple count** since this is all we are using at the 
 ```npm install git@github.com:Wambosa/udp_stats.git --save```
 
 ## statsD usage
-```javascript 1.6
+```javascript
 var stats = require('udp_stats').configure({
       mode: "udp",
       host: "stats.sclabs.com",
@@ -25,11 +25,10 @@ stats.start();
 
 stats.stop();
 //closes connection
-
 ```
 
 ## file-out usage
-```javascript 1.6
+```javascript
 var stats = require('udp_stats').configure({
       mode: "file",
       type: "count",
