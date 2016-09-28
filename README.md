@@ -49,7 +49,7 @@ stats.stop();
 ```
 
 ## config
-the **optional** config file: **udp_stats.json** (must be in ```process.cwd()``` in oirder to be found)
+the **optional** config file: **udp_stats.json** (must be in ```process.cwd()``` in order to be found)
 
 statsD example config
 ```json
